@@ -1,0 +1,188 @@
+2024-11-15 13:24:25,686 21212 INFO ? odoo: Odoo version 18.0 
+2024-11-15 13:24:25,686 21212 INFO ? odoo: Using configuration file at C:\Users\Aaron\Odoo\odoo\odoo.conf 
+2024-11-15 13:24:25,686 21212 INFO ? odoo: addons paths: ['C:\\Users\\Aaron\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\aaron\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'c:\\users\\aaron\\odoo\\odoo\\addons', 'c:\\users\\aaron\\odoo\\custom_addons', 'c:\\users\\aaron\\odoo\\odoo', 'c:\\users\\aaron\\odoo\\odoo\\odoo\\addons'] 
+2024-11-15 13:24:25,686 21212 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-15 13:24:25,824 21212 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-15 13:24:25,826 21212 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-15 13:24:25,992 21212 INFO ? odoo.service.server: HTTP service (werkzeug) running on Aarons-PC:8069 
+2024-11-15 13:24:26,107 21212 ERROR ? odoo.modules.loading: Database postgres not initialized, you can force it with `-i base` 
+2024-11-15 13:24:26,108 21212 INFO ? odoo.modules.registry: Registry loaded in 0.115s 
+2024-11-15 13:24:29,351 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:29,352 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:29] "GET / HTTP/1.1" 500 - 1 0.003 0.039
+2024-11-15 13:24:29,402 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:29,403 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:29] "GET /favicon.ico HTTP/1.1" 500 - 1 0.002 0.030
+2024-11-15 13:24:33,531 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:33,531 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:33] "GET / HTTP/1.1" 500 - 1 0.003 0.034
+2024-11-15 13:24:33,855 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:33,855 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:33] "GET /favicon.ico HTTP/1.1" 500 - 1 0.004 0.043
+2024-11-15 13:24:34,458 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:34,459 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:34] "GET / HTTP/1.1" 500 - 1 0.003 0.038
+2024-11-15 13:24:34,511 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:34,511 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:34] "GET /favicon.ico HTTP/1.1" 500 - 1 0.003 0.028
+2024-11-15 13:24:45,741 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:45,741 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:45] "GET / HTTP/1.1" 500 - 1 0.002 0.035
+2024-11-15 13:24:46,052 21212 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:24:46,053 21212 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:24:46] "GET /favicon.ico HTTP/1.1" 500 - 1 0.003 0.039
+2024-11-15 13:25:46,910 21492 INFO ? odoo: Odoo version 18.0 
+2024-11-15 13:25:46,911 21492 INFO ? odoo: Using configuration file at C:\Users\Aaron\Odoo\odoo\odoo.conf 
+2024-11-15 13:25:46,911 21492 INFO ? odoo: addons paths: ['C:\\Users\\Aaron\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\aaron\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'c:\\users\\aaron\\odoo\\odoo\\addons', 'c:\\users\\aaron\\odoo\\custom_addons', 'c:\\users\\aaron\\odoo\\odoo', 'c:\\users\\aaron\\odoo\\odoo\\odoo\\addons'] 
+2024-11-15 13:25:46,911 21492 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-15 13:25:47,051 21492 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-15 13:25:47,052 21492 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-15 13:25:47,219 21492 INFO ? odoo.service.server: HTTP service (werkzeug) running on Aarons-PC:8069 
+2024-11-15 13:25:47,327 21492 ERROR ? odoo.modules.loading: Database postgres not initialized, you can force it with `-i base` 
+2024-11-15 13:25:47,328 21492 INFO ? odoo.modules.registry: Registry loaded in 0.108s 
+2024-11-15 13:26:47,508 21492 ERROR postgres odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-15 13:26:47,508 21492 WARNING postgres odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database postgres. 
+2024-11-15 13:26:48,450 21492 ERROR postgres odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-15 13:26:48,450 21492 WARNING postgres odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database postgres. 
+2024-11-15 13:27:09,422 19424 INFO ? odoo: Odoo version 18.0 
+2024-11-15 13:27:09,423 19424 INFO ? odoo: Using configuration file at C:\Users\Aaron\Odoo\odoo\odoo.conf 
+2024-11-15 13:27:09,423 19424 INFO ? odoo: addons paths: ['C:\\Users\\Aaron\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\aaron\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'c:\\users\\aaron\\odoo\\odoo\\addons', 'c:\\users\\aaron\\odoo\\odoo\\odoo\\addons'] 
+2024-11-15 13:27:09,423 19424 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-15 13:27:09,547 19424 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-15 13:27:09,549 19424 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-15 13:27:09,731 19424 INFO ? odoo.service.server: HTTP service (werkzeug) running on Aarons-PC:8069 
+2024-11-15 13:27:09,846 19424 ERROR ? odoo.modules.loading: Database postgres not initialized, you can force it with `-i base` 
+2024-11-15 13:27:09,847 19424 INFO ? odoo.modules.registry: Registry loaded in 0.114s 
+2024-11-15 13:27:21,133 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:21,134 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:21] "GET / HTTP/1.1" 500 - 1 0.004 0.042
+2024-11-15 13:27:21,308 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:21,309 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:21] "GET /favicon.ico HTTP/1.1" 500 - 1 0.003 0.153
+2024-11-15 13:27:22,467 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:22,467 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:22] "GET / HTTP/1.1" 500 - 1 0.003 0.038
+2024-11-15 13:27:22,794 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:22,794 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:22] "GET /favicon.ico HTTP/1.1" 500 - 1 0.003 0.054
+2024-11-15 13:27:23,517 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:23,518 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:23] "GET / HTTP/1.1" 500 - 1 0.004 0.044
+2024-11-15 13:27:23,577 19424 ERROR postgres odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "C:\Users\Aaron\Odoo\odoo\odoo\http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "C:\Users\Aaron\Odoo\odoo\odoo\modules\registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-15 13:27:23,577 19424 INFO postgres werkzeug: 127.0.0.1 - - [15/Nov/2024 13:27:23] "GET /favicon.ico HTTP/1.1" 500 - 1 0.003 0.037
+2024-11-15 13:27:40,094 13288 INFO ? odoo: Odoo version 18.0 
+2024-11-15 13:27:40,094 13288 INFO ? odoo: Using configuration file at C:\Users\Aaron\Odoo\odoo\odoo.conf 
+2024-11-15 13:27:40,094 13288 INFO ? odoo: addons paths: ['C:\\Users\\Aaron\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\aaron\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'c:\\users\\aaron\\odoo\\odoo\\addons', 'c:\\users\\aaron\\odoo\\odoo\\odoo\\addons'] 
+2024-11-15 13:27:40,095 13288 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-15 13:27:40,235 13288 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-15 13:27:40,236 13288 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-15 13:27:40,416 13288 INFO ? odoo.service.server: HTTP service (werkzeug) running on Aarons-PC:8069 
+2024-11-15 13:27:40,526 13288 ERROR ? odoo.modules.loading: Database postgres not initialized, you can force it with `-i base` 
+2024-11-15 13:27:40,526 13288 INFO ? odoo.modules.registry: Registry loaded in 0.110s 
